@@ -37,4 +37,4 @@ A Python script that processes the output from script1.py and saves the classifi
 Ensure script1.py has been executed and produced an output.
 Run script2.py using the command: python script2.py
 
-#You do not need to run Script1 , Script2 is calling Script1
+# You do not need to run Script1 , Script2 is calling Script1
