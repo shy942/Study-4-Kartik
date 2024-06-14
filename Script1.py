@@ -28,11 +28,11 @@ def process_image(folder_path):
                 "content": [ 
                     {
                         "type": "text",
-                        "text": "Please look at given image very carefully,look for meaningless labels, look for Cross icon, identify what is in the image and then precisely classify the elements (Yes- For Present , No - For Absent) in this image into the following categories and subcategories:\n\n"
+                        "text": "Please look at given image very carefully, look for meaningless labels, look for Cross icon, identify what is in the image and then precisely classify the elements (Yes- For Present , No - For Absent) in this image into the following categories and subcategories:\n\n"
                             "1. Programming Components\n"
                             "  a. Programming Code: If the image contains programming code of any programming language other than python.\n"
                             "  b. Exceptions/Errors:If the image contain error or exception messages.\n"
-                            "  c. Stack Trace: Ordered list of API method invocations.he trace contains various structured items including class names, method names, and line numbers from the source code.\n"
+                            "  c. Stack Trace: Ordered list of API method invocations. Stack trace contains various structured items including class names, method names, and line numbers from the source code.\n"
                             "  d. Git Commands: Git bash commands and their output.\n"
                             "  e. Python Commands: If image contains Python code , commands and their output.\n"
                             "  f. Other Command: Other command-line instructions and their output.\n"
